@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:paddingBottom="10dp"
+    android:background="@drawable/light"
+    tools:context="com.example.codefreaktanveer.travelmate.SplashActivity">
+
+  <ImageView
+      android:layout_width="170dp"
+      android:layout_height="170dp"
+      android:src="@drawable/logoart"
+      android:id="@+id/imageView"
+     android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imageView"
+    android:layout_marginTop="10dp"
+    android:text="Loading..."
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="#666"
+    android:textSize="16sp"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Copyright Annomymous"
+      android:id="@+id/textView"
+      android:textColor="#ffffff"
+      android:textSize="25sp"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

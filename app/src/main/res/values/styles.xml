@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+         Customize your theme here.
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#276699</item>
+        <item name="colorPrimary">#DB896D</item>
+    </style>
+
+
+    <style name="AppTheme.PopupTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:title">Choose an option</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+    </style>
+    <style name="AppTheme.dialogStyle">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="android:background">#de8854</item>
+    </style>
+
+        <style name="Base.Theme.HMKCodeApp" parent="Theme.AppCompat.NoActionBar">
+
+            <item name="colorPrimary">#E28C71</item>
+
+            <!--   darker variant for the status bar and contextual app bars -->
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+            <!--   theme UI controls like checkboxes and text fields e.g. FloatActionButton -->
+            <item name="colorAccent">#276699</item>
+            <item name="android:windowBackground">@drawable/card_bg_list</item>
+
+
+        </style>
+
+        <!--
+           Base application theme, dependent on API level. This theme is replaced
+           by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+       -->
+        <style name="AppBaseTheme" parent="Base.Theme.HMKCodeApp">
+            <!--
+                Theme customizations available in newer API levels can go in
+                res/values-vXX/styles.xml, while customizations related to
+                backward-compatibility can go here.
+            -->
+        </style>
+
+        <!-- Application theme. -->
+        <style name="AppTheme.Tourmate" parent="AppBaseTheme">
+            <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        </style>
+
+
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <color name="white">#fff</color>
+    <color name="iron">#ddd</color>
+</resources>

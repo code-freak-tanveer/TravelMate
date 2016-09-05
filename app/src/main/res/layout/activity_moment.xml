@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.codefreaktanveer.travelmate.MomentActivity">
+
+
+    <EditText
+        android:id="@+id/momentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Moment Name"
+        android:textSize="20sp"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:background="@drawable/moment_camera"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="cameraBtn"
+        android:id="@+id/cameraBtnId"/>
+
+    <ImageView
+        android:id="@+id/imageShow"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"/>
+
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Save Moment"-->
+        <!--android:id="@+id/saveMoment"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:background="#38c898" />-->
+
+
+</LinearLayout>

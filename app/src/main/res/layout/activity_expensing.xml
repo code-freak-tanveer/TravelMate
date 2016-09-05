@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="start">
+
+        <EditText
+            android:id="@+id/expenseScope"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Expense Scope"
+            android:padding="15dip"
+            android:textColor="#000000"
+            android:background="@drawable/text_field"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/expenseAmount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Amount"
+            android:textColor="#000000"
+            android:background="@drawable/text_field"
+            android:textSize="20sp"
+            android:padding="15dip"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textSize="23sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttons"
+            android:textStyle="bold"
+            android:onClick="SaveExpenseData"/>
+
+    </LinearLayout>
+</ScrollView>

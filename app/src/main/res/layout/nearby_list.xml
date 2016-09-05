@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:paddingTop="15dp"
+    android:paddingLeft="10dp"
+    android:paddingBottom="15dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/card_bg_list">
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout"
+    android:background="@android:drawable/screen_background_light_transparent"
+
+    >
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Place Name"
+    android:textColor="#29b4ef"
+    android:id="@+id/txtLocationName"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/txtDistance"
+        android:text="Distance"
+        android:gravity="end"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textColor="#29b4ef"
+        android:id="@+id/txtLocationType"
+        android:gravity="start"
+        android:layout_below="@id/linearLayout"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opening Status"
+        android:textColor="#29b4ef"
+        android:id="@+id/txtOpenStatus"
+        android:gravity="start"
+        android:layout_below="@id/txtLocationType"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        />
+
+    <RatingBar
+        android:layout_width="250dp"
+        android:progressTint="#29b4ef"
+        android:progressBackgroundTint="#ddd"
+        android:secondaryProgressTint="@android:color/holo_red_dark"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="1"
+        android:layout_height="50dp"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/txtOpenStatus" />
+</RelativeLayout>

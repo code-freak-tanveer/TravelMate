@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+
+    <string-array name="spinnerItemstoShow">
+        <item>Restaurant</item>
+        <item>Hospital</item>
+        <item>Bus Station</item>
+        <item>Atm</item>
+        <item>Liquor Store</item>
+        <item>Bank</item>
+        <item>Bar</item>
+        <item>Mosque</item>
+        <item>Car Rental</item>
+        <item>Car Repair</item>
+        <item>Gas Station</item>
+        <item>Laundry</item>
+
+    </string-array>
+    </resources>

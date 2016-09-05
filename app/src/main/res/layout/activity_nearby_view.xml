@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+
+    android:background="@drawable/light"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.codefreaktanveer.travelmate.NearbyView">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:background="#29b4ef"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/spinnerItemstoShow"
+        android:id="@+id/typeSpinner" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/typeSpinner"
+        android:id="@+id/lstNearbyLocations"
+        android:layout_marginTop="10dp">
+
+    </ListView>
+
+</RelativeLayout>

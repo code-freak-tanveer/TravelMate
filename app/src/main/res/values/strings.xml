@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Travel Mate</string>
+    <string name="title_activity_event_activiry">EventActiviry</string>
+    <string name="starred_string">Value 2</string>
+    <string name="inbox_string">Value 1</string>
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+</resources>
